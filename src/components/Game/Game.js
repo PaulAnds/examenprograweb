@@ -167,7 +167,7 @@ function winnerWho(){
     else if(score > escore && counter === 3){
         return "YOU WON THE 3 ON 3";
     }
-    else if(score == escore){
+    else if(score === escore){
         return "it was a tie at the end";
     }
     else{
